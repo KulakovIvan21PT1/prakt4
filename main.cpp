@@ -21,7 +21,7 @@ int main() {
     StringSource(gsm, true, new Redirector(encoder));
     cout << result << "\n\n";
     
-    // Блок для проверки работоспособности кода выше:
+    // Проверка кода
     HexEncoder encoder1(new StringSink(result1));
     string gsm1, msg1 = "Milk is one of most useful products.";
     cout << "Text: " << msg1 << endl;
